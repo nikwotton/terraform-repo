@@ -1,4 +1,8 @@
+variable "GITHUB_TOKEN" {
+  type = string
+}
+
 provider "github" {
-  token = var.token
+  token = var.GITHUB_TOKEN
   owner = "nikwotton"
 }
