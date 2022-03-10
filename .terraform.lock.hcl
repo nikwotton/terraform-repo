@@ -2,9 +2,11 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/integrations/github" {
-  version = "4.20.1"
+  version     = "4.20.1"
+  constraints = "~> 4.0"
   hashes = [
     "h1:8SJOk2leZGkQTJVu/VFY76P7/CcEH1X+wU3ZyFoG0Qg=",
+    "h1:gLGJ7+Zp723X37xxkVPB0rnuHb867jrYOTcBMaLSjHs=",
     "zh:0358b5488993709aca7307b6b164540a449f48c17ab84120ebe380655948a325",
     "zh:07fa810fd2b3bdb0dba1f1d59facd579224498519f7fbc1bb957a583652b9abc",
     "zh:177ee8110c554e8b87f18a1b0ae32e85ef9f3dc03b4435ad3c2d16caab129d75",
